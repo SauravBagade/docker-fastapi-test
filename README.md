@@ -180,7 +180,7 @@ http://<YOUR_PUBLIC_IP>:8000/docs
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description     |
 | ------ | -------- | --------------- |
@@ -190,7 +190,7 @@ http://<YOUR_PUBLIC_IP>:8000/docs
 
 ---
 
-## 💾 Data Persistence
+##  Data Persistence
 
 Data stored at:
 
@@ -207,7 +207,7 @@ volumes:
 
 ---
 
-## 🧪 Test Persistence
+##  Test Persistence
 
 1. Add user via `/docs`
 2. Stop container:
@@ -224,11 +224,11 @@ docker compose up -d
 
 4. Check `/users`
 
-✅ Data persists
+ Data persists
 
 ---
 
-## 📊 Useful Commands
+##  Useful Commands
 
 Check containers:
 
@@ -256,7 +256,7 @@ docker compose down -v
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Docker not found
 
@@ -264,7 +264,7 @@ docker compose down -v
 docker: command not found
 ```
 
-👉 Install Docker properly and restart terminal
+ Install Docker properly and restart terminal
 
 ---
 
